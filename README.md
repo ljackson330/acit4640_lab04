@@ -9,6 +9,6 @@ In a new block add a new section named "packages:", add
 -nmap 
 underneath these to install the required packages. 
 
-In a new block underneath that one, create "runcmd:" with 
-- systemctl enable nginx
-- systemctl start nginx
+After creating a directory for your terraform files, initialize the git repository which contains the main.tf and cloud-config.yaml file and then use *terraform init* to initialize the terraform working directory. 
+
+
