@@ -1,4 +1,4 @@
-## Create a SSH keypair
+## Create an SSH keypair
 To start, use the command ssh-keygen -t rsa -b 4096 -C "your_email@example_email.com" to generate a new key pair. 
 
 ## Update Cloud-config.yaml
